@@ -1,0 +1,26 @@
+# Node.js
+node_modules/
+
+# Build output
+/dist/
+/build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# Jest cache
+jest-cache/

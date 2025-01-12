@@ -1,0 +1,50 @@
+{
+  "name": "@tyecode/strman",
+  "version": "0.1.0",
+  "description": "A lightweight library for string formatting and transformation.",
+  "private": false,
+  "type": "module",
+  "license": "MIT",
+  "author": "tyecode <sengphachanh.dev@gmail.com>",
+  "main": "dist/index.esm.js",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "keywords": [
+    "string",
+    "formatter",
+    "manipulation",
+    "case-conversion"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tyecode/strman"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@jest/types": "^29.6.3",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.5",
+    "@typescript-eslint/eslint-plugin": "^8.19.1",
+    "@typescript-eslint/parser": "^8.19.1",
+    "eslint": "^9.18.0",
+    "expect": "^29.7.0",
+    "jest": "^29.7.0",
+    "pretty-format": "^29.7.0",
+    "rollup": "^4.30.1",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
