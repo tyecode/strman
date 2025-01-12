@@ -1,12 +1,13 @@
 {
   "name": "@tyecode/strman",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight library for string formatting and transformation.",
   "private": false,
   "type": "module",
   "license": "MIT",
   "author": "tyecode <sengphachanh.dev@gmail.com>",
   "main": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/",
     "src/"
@@ -19,10 +20,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tyecode/strman"
+    "url": "https://github.com/tyecode/strman.git"
   },
   "scripts": {
     "build": "rollup -c",
+    "prepublishOnly": "pnpm run build",
     "test": "jest",
     "lint": "eslint src"
   },
